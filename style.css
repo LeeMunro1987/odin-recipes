@@ -1,0 +1,35 @@
+* {
+    font-size: 18px;
+}
+
+.main {
+    font-size: 48px;
+    color:darkred;
+}
+
+.bullet {
+    font-size: 18px;
+    color: orange;
+}
+
+.main * {
+    font-size: 24px;
+    color:darkgreen;
+    text-decoration: none;
+}
+
+.text {
+    color: darkred;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text.title {
+    font-size: 36px;
+    color:lightslategray
+}
+
+.text.header {
+    font-size: 28px;
+    color:darkblue;
+    font-family: helvetica, Arial, sans-serif;
+}
