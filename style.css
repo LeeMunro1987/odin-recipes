@@ -1,4 +1,10 @@
-* {
+html {
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
     font-size: 18px;
 }
 
@@ -9,12 +15,12 @@
 
 .bullet {
     font-size: 18px;
-    color: orange;
+    color: #333333;
 }
 
 .main * {
     font-size: 24px;
-    color:darkgreen;
+    color: #333333;
     text-decoration: none;
 }
 
@@ -25,7 +31,8 @@
 
 .text.title {
     font-size: 36px;
-    color:lightslategray
+    color: #555555;
+    font-family: helvetica, Arial, sans-serif;
 }
 
 .text.header {
@@ -33,3 +40,37 @@
     color:darkblue;
     font-family: helvetica, Arial, sans-serif;
 }
+
+.container {
+    background-color:bisque;
+
+}
+
+.container.outer {
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.container.inner {
+    padding: 5px;
+    background-color: bisque;
+}
+
+.container.list {
+    padding: 5px;
+    background-color: #fff;
+}
+
+h1 {
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+li {
+    margin: 0 auto;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
